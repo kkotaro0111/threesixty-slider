@@ -313,7 +313,7 @@
     base.play = function(speed, direction) {
       var _speed = speed || AppConfig.playSpeed;
       var _direction = direction || AppConfig.autoplayDirection;
-      AppConfig.autoplayDirection = _direction
+      AppConfig.autoplayDirection = _direction;
 
       if (!AppConfig.autoplay) {
         AppConfig.autoplay = true;
